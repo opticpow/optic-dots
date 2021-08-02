@@ -1,11 +1,3 @@
-[alias]
-	br = branch
-	ci = commit
-	co = checkout
-	st = status
-        di = diff
-[push]
-	default = current
 [user]
-	email = you@example.com
-	name = Your Name
+	name = Wayne Ingram
+	email = wayne@ingram.net.au
