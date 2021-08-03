@@ -6,6 +6,13 @@ sourceif ~/.bashrc../local
 sourceif ~/.bashrc../$USER
 sourceif ~/.bashrc../$LOCAL
 
+if [[ `whoami` == "root" ]]
+then
+  PS1='\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+  PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+fi
+
 alias vi=vim
 alias ll='ls -al --group-directories-first --color=yes'
 alias xpat='sudo puppet agent -t'
