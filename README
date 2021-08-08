@@ -1,38 +1,12 @@
-DotDotDot - A technique for managing Unix "dot" files.
-
-== NOTE ==
-
-See https://github.com/ingydotnet/... first.
-
-'...' is a command for managing and installing your dot file repositories.
-
-== DESCRIPTION ==
-
-This is a repository of common Unix dot/config files like .bashrc and .vim, etc. They are intended to work with the '...' installation program.
-
-This is an attempt to DRY (http://bit.ly/cJwHB9) up the management of these files.
-
-You are encouraged to (GitHub) fork this project and tailor it to your needs. I'll keep an eye on the various forks and merge the good features back here.
-
-To understand how to use and configure this stuff correctly in multiple environments, see CONFIGURATION section below.
-
 == INSTALLATION ==
-
-This 
 
 To use this project:
 
-    > cd $HOME                          # Go home
-    > git clone git@github.com:ingydotnet/....git     # Install ...
-    > .../bin/... backup                # Backup your old dot files
-    > cd .../src/                       # Where your repos (like this one) go
-    > git clone git@github.com:ingydotnet/dotdotdot.git     # Git this
-    > cd ..                             # Go back
-    > cp conf.example conf              # Create a working conf
-    > edit conf                         # Configure ...
-    > .../bin/... install               # Install your dot files!
-    # Now ... is in your PATH
-    > ... help                          # Get help on more ... commands
+    > cd $HOME
+    > git clone git@github.com:ingydotnet/....git
+    > .../... conf https://raw.githubusercontent.com/opticpow/optic-dots/master/conf
+    > .../... upgrade
+    > .../... install
 
 == CONFIGURATION ==
 
