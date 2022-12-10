@@ -9,7 +9,7 @@
 # dot_paths_base below.
 
 dots:
-- repo: git@github.com:opticpow/optic-dots.git
+- repo: https://github.com/opticpow/optic-dots.git
   path: optic-dots
 
 
