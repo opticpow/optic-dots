@@ -3,7 +3,7 @@
 To use this project:
 
     > cd $HOME
-    > git clone git@github.com:ingydotnet/....git
+    > git clone https://github.com/ingydotnet/....git
     > .../... conf https://raw.githubusercontent.com/opticpow/optic-dots/master/conf
     > .../... upgrade
     > .../... install
